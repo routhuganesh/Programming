@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 
+
+//force push
 public class Test
 {
     public class Student
@@ -25,7 +27,7 @@ public class Test
         Console.WriteLine(check);
         foreach(var student in studentList)
         {
-            Console.WriteLine(student); 
+            Console.Write(student); 
         }
         
     }
